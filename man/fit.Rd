@@ -28,7 +28,7 @@ over all samples using if available the precomputed control factors.
 If no normalization factors are provided only the sizeFactors are used.
 }
 \examples{
-ods <- makeExampleOutriderDataSet()
+ods <- makeExampleOutriderDataSet(160, 60)
 ods <- estimateSizeFactors(ods)
 ods <- fit(ods)
 
